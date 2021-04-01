@@ -1,15 +1,7 @@
 function puedeSubir(alt, acom) {
-    if (alt < 200 && alt > 140) {
-        return true
-    }
-    else if (alt < 140 && alt > 120 && acom == true) {
-        return true
-    }
-    else {
-        return false
-    }
+   (alt < 200 && alt > 140) || (alt < 140 && alt > 120 && acom == true) 
 }
-
+    
 //function puedeSubir1(alt, acom) {
 //    switch (alt, acom) {
 //      case alt < 200 && alt > 140:
@@ -45,3 +37,23 @@ function precioSandwich(tomate,huevo,papa){
 
 console.log(precioSandwich(true,true,true))
 //
+
+function puedeSubir1(alt, acom, pena) {
+    if (pena==true){
+        return false
+    }
+    else  if(alt < 200 && alt > 140 ) {
+        return true
+    }
+    else if (alt < 140 && alt > 120 && acom == true ) {
+        return true
+    }
+    else {
+        return false
+    }
+}
+
+function puedeSubir2(alt,acom,pena){
+    return !pena && ((alt < 200 && alt > 140) || (alt < 140 && alt > 120 && acom) )
+}
+console.log(puedeSubir2(150,true,false))
