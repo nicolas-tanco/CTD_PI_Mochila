@@ -1,0 +1,19 @@
+[
+    {
+        "titulo": "Intro a la programacion",
+        "estado": "terminada"
+    },
+    {
+        "titulo": "Intro a las MT",
+        "estado": "pendiente"
+    },
+    {
+        "titulo": "Base de datos",
+        "estado": "repasar"
+    },
+    {
+        "titulo": "front end",
+        "estado": "terminada"
+    }
+]
+

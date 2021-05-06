@@ -14,3 +14,7 @@ function finDeSemana (dia) {
 	}
 }
 finDeSemana()
+
+let b=0
+b-=2
+console.log(b)
